@@ -18,9 +18,6 @@ Once the dataset was cleaned, it was imported to MySQL Workbench with the databa
   For the Exit Date column, because there were blank fields, it had to be filled in as NULL in order for the column to be modified as DATE.
 
 For Exploratory Data Analysis, a combination of MS Excel and SQL for advance querying were utilized.
-- Went through the KPIs that are commonly used in Human Resource environment.
-- After the initial analysis, it was decided to focus on the Engagement Index KPI.
-
 Employee Engagement Diagnostic Analysis
 
 1. Survey Period Identification and Year Classification

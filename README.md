@@ -8,8 +8,8 @@ The data was obtained from kaggle.com with records from 2018-2023.
 For Data Cleaning and Data Manipulation, MS Excel and MySQL Workbench were used. 
 
 MS Excel Data Manipulation:
-- Standardized the data format to dd-mmm-yyyy.
-- Remove unwanted columns.
+- Standardized the data format for the 'DATE' columns to dd-mmm-yyyy.
+- Remove unnecessary columns.
 
 Once the dataset was cleaned, it was imported to MySQL Workbench with the database name 'project'.
 - All columns were uploaded as a 'TEXT' datatype.

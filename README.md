@@ -3,7 +3,7 @@ Department-Level Engagement Analysis
 ## Problem Statement
 The company’s overall engagement index is 2.99, falling below the acceptable benchmark range of 3.4–4.1. All departments also score below benchmark, indicating organization-wide disengagement and increased people risk.
 ## Data
-The data was outsourced from kaggle.com with records from 2018-2023.
+The data was obtained from kaggle.com with records from 2018-2023.
 ## Methodology
 For Data Cleaning and Data Manipulation, MS Excel and MySQL Workbench were used. 
 

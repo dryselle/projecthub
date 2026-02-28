@@ -1,5 +1,5 @@
 ## Title
-Engagement Index Analysis - Portfolio Project
+Department-Level Engagement Analysis
 ## Problem Statement
 The company’s overall engagement index is 2.99, falling below the acceptable benchmark range of 3.4–4.1. All departments also score below benchmark, indicating organization-wide disengagement and increased people risk.
 ## Data

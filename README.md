@@ -23,6 +23,7 @@ For Exploratory Data Analysis, a combination of MS Excel and SQL for advance que
 - After the initial analysis, it was decided to focus on the Engagement Index KPI.
 
 Employee Engagement Diagnostic Analysis
+
 1. Survey Period Identification and Year Classification
 Employee engagement surveys were conducted across two time periods:
 - August–December 2022
@@ -66,6 +67,11 @@ The analysis was conducted using Excel’s Data Model, leveraging:
 This approach enabled consistent, comparable insights while maintaining transparency in the calculation logic.
 
 Root Cause Analysis Tool: 5 Whys
+
+Data Visualization Tool Used: Power BI
+
+<img width="1408" height="793" alt="image" src="https://github.com/user-attachments/assets/94e19d36-5bd0-40b8-9515-9ef64161551d" />
+
 
 ## Results
 Further analysis indicates that salary range and workload distribution were not primary contributors to the low Engagement Index observed in this case. Departments with lower engagement did not exhibit disproportionately higher concentrations of employees in lower salary ranges nor higher levels of excessive workload compared to other departments.

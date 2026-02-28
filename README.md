@@ -66,10 +66,9 @@ Root Cause Analysis Tool: 5 Whys
 
 Data Visualization Tool Used: Power BI
 
+## Results
 <img width="1408" height="793" alt="image" src="https://github.com/user-attachments/assets/94e19d36-5bd0-40b8-9515-9ef64161551d" />
 
-
-## Results
 Further analysis indicates that salary range and workload distribution were not primary contributors to the low Engagement Index observed in this case. Departments with lower engagement did not exhibit disproportionately higher concentrations of employees in lower salary ranges nor higher levels of excessive workload compared to other departments.
 
 This result suggests that the engagement challenge is not driven by compensation or workload factors, but rather points toward non-financial and cultural drivers of engagement.

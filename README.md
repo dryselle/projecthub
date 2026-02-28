@@ -19,7 +19,6 @@ Once the dataset was cleaned, it was imported to MySQL Workbench with the databa
 
 For Exploratory Data Analysis, a combination of MS Excel and SQL for advance querying were utilized.
 - Went through the KPIs that are commonly used in Human Resource environment.
-- Did a business logic check, that is, validating that the relationships between fields in a dataset make sense according to domain knowledge or real-world expectations.
 - After the initial analysis, it was decided to focus on the Engagement Index KPI.
 
 Employee Engagement Diagnostic Analysis

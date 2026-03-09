@@ -1,5 +1,7 @@
 ## Title
 Department-Level Engagement Analysis
+
+This project analyzes employee engagement survey data to identify factors contributing to low engagement across departments. Using SQL, Excel and Power BI, the dataset was cleaned, transformed, and visualized to evaluate engagement trends, department performance, and potential drivers of disengagement. The analysis revealed that engagement levels across the organization fall below the benchmark range, indicating possible cultural and leadership-related concerns rather than financial factors. The dashboard provides an interactive view of engagement metrics to help decision-makers identify risk areas and prioritize improvement initiatives
 ## Problem Statement
 The company’s overall engagement index is 2.99, falling below the acceptable benchmark range of 3.4–4.1. All departments also score below benchmark, indicating organization-wide disengagement and increased people risk.
 ## Data
@@ -19,15 +21,18 @@ Once the dataset was cleaned, it was imported to MySQL Workbench with the databa
   For the Exit Date column, because there were blank fields, it had to be filled in as NULL in order for the column to be modified as DATE.
 
 For Exploratory Data Analysis, a combination of MS Excel and SQL for advance querying were utilized.
+
 Employee Engagement Diagnostic Analysis
 
 1. Survey Period Identification and Year Classification
+
 Employee engagement surveys were conducted across two time periods:
 - August–December 2022
 - January–August 2023
 To ensure accurate year-over-year comparison, survey responses were classified by survey year based on the collection period. This step was necessary to prevent overlap and to ensure that engagement scores were correctly attributed to the appropriate year.
 
 2. Engagement Index Construction
+
 An Engagement Index was created to serve as a consolidated measure of employee commitment and experience.
 The Engagement Index was calculated as the average of three survey dimensions:
 - Engagement Score
@@ -36,6 +41,7 @@ The Engagement Index was calculated as the average of three survey dimensions:
 This composite index allowed for a more holistic assessment of engagement rather than relying on a single metric.
 
 3. Department-Level Engagement Analysis
+
 Once the Engagement Index was calculated for each survey year, the analysis was conducted at the department level.
 Key findings included:
 - In 2022, the Admin Office recorded the lowest Engagement Index (2.51).
@@ -43,7 +49,9 @@ Key findings included:
 This step helped identify which departments were experiencing the most significant engagement challenges in each year.
 
 4. Driver Analysis of Engagement Index Components
+
 To understand why engagement scores were low, the analysis focused on the underlying drivers of the Engagement Index—specifically Satisfaction and Work-Life Balance.
+
 a. Satisfaction Analysis (Salary Range)
 Satisfaction was further examined by analyzing employees’ salary range:
 - Employees were categorized based on salary range levels.
@@ -57,6 +65,7 @@ Work-Life Balance was analyzed by examining excessive workload:
 Results were expressed as percentages to allow comparison across departments of different sizes.
 
 5. Analytical Approach and Tools
+
 The analysis was conducted using Excel’s Data Model, leveraging:
 - Filtering by department and survey year
 - Aggregation of employee counts
@@ -68,7 +77,7 @@ Root Cause Analysis Tool: 5 Whys
 Data Visualization Tool Used: Power BI
 
 ## Results
-<img width="1408" height="793" alt="image" src="https://github.com/user-attachments/assets/94e19d36-5bd0-40b8-9515-9ef64161551d" />
+<img width="1408" height="790" alt="image" src="https://github.com/user-attachments/assets/7783cec8-064e-4a89-a02c-4edee23b4527" />
 
 Further analysis indicates that salary range and workload distribution were not primary contributors to the low Engagement Index observed in this case. Departments with lower engagement did not exhibit disproportionately higher concentrations of employees in lower salary ranges nor higher levels of excessive workload compared to other departments.
 
@@ -95,4 +104,6 @@ Based on this shift in findings, the following potential root causes were identi
   - Strengthen team-building and inclusion practices to improve belonging and morale.
 - Monitor with pulse surveys
   - Track engagement quarterly to see if interventions are improving scores.
+
+If improvements in leadership communication, career development, and team dynamics increase engagement sentiment by approximately 0.3–0.4 points, the organization could significantly reduce the 0.41-point gap between the 2023 engagement index (2.99) and the minimum acceptable benchmark of 3.40.
 
